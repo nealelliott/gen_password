@@ -1,0 +1,6 @@
+AC_INIT(src/gen.c)
+PACKAGE=gen
+VERSION=0.0.1
+AM_INIT_AUTOMAKE($PACKAGE, $VERSION)
+AC_PROG_CC
+AC_OUTPUT(Makefile src/Makefile)
